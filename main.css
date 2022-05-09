@@ -70,6 +70,24 @@ img {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.worms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.worms img {
+  height: 400px;
+  width: 400px;
+}
+figure {
+  border: thin #c0c0c0 solid;
+  padding: 2px;
+  margin: auto;
+}
+figcaption {
+  text-align: center;
+}
 a {
   color: #e76f51;
 }
