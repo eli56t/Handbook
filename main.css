@@ -166,7 +166,6 @@ ol ul {
 /* Title Page */
 .hero-banner {
   background-color: #264653;
-
   width: 100%;
   height: 100%;
   align-items: center;
@@ -174,8 +173,7 @@ ol ul {
 }
 
 .hero-img {
-  background: url('/test/CVRR.png') no-repeat;
-  /* background-size: 50%; */
+  background: url('CVRR.png') no-repeat;
   background-position: 50%;
   margin-top: 0px;
   height: 50vh;
