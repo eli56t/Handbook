@@ -70,6 +70,25 @@ img {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.worms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.worms img {
+  height: 400px;
+  width: 400px;
+}
+figure {
+  border: thin #c0c0c0 solid;
+  padding: 2px;
+  margin: auto;
+}
+figcaption {
+  text-align: center;
+}
+
 a {
   color: #e76f51;
 }
@@ -166,7 +185,6 @@ ol ul {
 /* Title Page */
 .hero-banner {
   background-color: #264653;
-
   width: 100%;
   height: 100%;
   align-items: center;
@@ -174,8 +192,7 @@ ol ul {
 }
 
 .hero-img {
-  background: url('/test/CVRR.png') no-repeat;
-  /* background-size: 50%; */
+  background: url('CVRR.png') no-repeat;
   background-position: 50%;
   margin-top: 0px;
   height: 50vh;
@@ -546,7 +563,7 @@ footer {
     margin-right: 0px;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-size: 35%;
     background-position: 50%;
     height: 35vh;
@@ -583,7 +600,7 @@ footer {
     font-size: x-large;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     margin-top: 20px;
     background-position: 50%;
     height: 55vh;
@@ -618,7 +635,7 @@ footer {
     font-size: xx-large;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-position: 50%;
     height: 65vh;
     margin-top: 20px;
@@ -651,7 +668,7 @@ footer {
     font-size: 40px;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-position: 50%;
     margin-top: 20px;
     height: 55vh;
