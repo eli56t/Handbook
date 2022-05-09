@@ -544,7 +544,7 @@ footer {
     margin-right: 0px;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-size: 35%;
     background-position: 50%;
     height: 35vh;
@@ -581,7 +581,7 @@ footer {
     font-size: x-large;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     margin-top: 20px;
     background-position: 50%;
     height: 55vh;
@@ -616,7 +616,7 @@ footer {
     font-size: xx-large;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-position: 50%;
     height: 65vh;
     margin-top: 20px;
@@ -649,7 +649,7 @@ footer {
     font-size: 40px;
   }
   .hero-img {
-    background: url('/test/CVRR.png') no-repeat;
+    background: url('CVRR.png') no-repeat;
     background-position: 50%;
     margin-top: 20px;
     height: 55vh;
