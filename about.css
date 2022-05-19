@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  padding: 6px;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  background-color: #545f66;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #b1cc74;
+  line-height: 1.65em;
+  font-size: 15pt;
+}
+.centered {
+  text-align: center;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 350px;
+}
+.card-body {
+  background-color: #b1cc74;
+  color: #000;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #b1cc74;
+}
+
+section {
+  width: 80vw;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-top: solid 2px #b1cc74;
+}
+#numbers {
+  margin-top: 20px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.jumbotron {
+  background-color: inherit;
+}
+.display-4 {
+  font-weight: 600;
+}
+.carousel-caption {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  text-shadow: 1px 1px black;
+}
+
+.carousel-inner img {
+  object-fit: contain;
+}
+@media (max-width: 767px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+.col {
+  padding: 15px;
+}
+/* HIDE RADIO */
+[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type='radio'] + img {
+  position: relative;
+  cursor: none;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.84);
+  display: block;
+  margin: 7.5px;
+  width: 170px;
+  height: 180px;
+  border: 3px solid #bdc3c7;
+  object-fit: cover;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  animation: border-transform 6s linear infinite alternate forwards;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 1px 1px black;
+}
+
+@keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+.boxexcerpt {
+  background: #b2cc747d;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+  display: inline-block;
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  padding: 0.25em 0.35em 0.25em 0.35em;
+  margin: 5px 0 20px 30px;
+  text-shadow: 1px 1px black;
+}

@@ -22,7 +22,7 @@ title: CVRR Foster Handbook
 
 description: >- # this means to ignore newlines until "baseurl:"
   Foster Handbook
-baseurl: '/test' # the subpath of your site, e.g. /blog
+baseurl: '/Handbook' # the subpath of your site, e.g. /blog
 url: 'eli56t.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: eli56t
